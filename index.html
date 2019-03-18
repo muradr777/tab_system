@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tab System</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="wrapper">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+                <a class="navbar-brand" href="#">TabSystem</a>
+        
+                <div>
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active" data-tab="home">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a
+                      >
+                    </li>
+                    <li class="nav-item" data-tab="about">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item" data-tab="contacts">
+                      <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+      
+        <div class="tabs-wrapper">
+            <div class="tab-content__home">
+                <section class="jumbotron text-center">
+                    <div class="container">
+                        <h1 class="jumbotron-heading">Tab System</h1>
+                        <p class="lead text-muted">
+                            I made this simple Tab System plugin to make my work easier. <br>
+                            Hope that it will help you out too.
+                            Enjoy! 
+                        </p>
+                    </div>
+                </section>
+                <div class="album py-5">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-4">
+                              <div class="card mb-4 shadow-sm">
+                                <div style="background-image: url(https://picsum.photos/260/400?blur);" class="bd-placeholder-img card-img-top" width="100%"></div>
+                                <div class="card-body">
+                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                                    <div class="card mb-4 shadow-sm">
+                                      <div style="background-image: url(https://picsum.photos/260/400?blur);" class="bd-placeholder-img card-img-top" width="100%"></div>
+                                      <div class="card-body">
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                          <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                          </div>
+                                          <small class="text-muted">9 mins</small>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                          <div style="background-image: url(https://picsum.photos/260/400?blur);" class="bd-placeholder-img card-img-top" width="100%"></div>
+                                          <div class="card-body">
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                              <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                              </div>
+                                              <small class="text-muted">9 mins</small>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content__about">
+                <div class="container py-4">
+                    <h1 class="mb-3">About</h1>
+                    <p class="lead">
+                            I made this simple Tab System plugin to make my work easier. <br>
+                            Hope that it will help you out too. Enjoy! 
+                    </p>
+                </div>
+            </div>
+            <div class="tab-content__contacts">
+                    <div class="container py-4">
+                        <h1 class="mb-3">Contacts</h1>
+                        <div class="contact-info">
+                            <b>Address</b>: Lorem, ipsum dolor. <br>
+                            <b>Email</b>: johndoe@gmail.com <br>
+                            <b>Phone</b>: +41-55-555-5555
+                        </div>
+                    </div>
+            </div>
+        </div>
+      
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

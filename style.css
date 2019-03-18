@@ -1,0 +1,27 @@
+.btn:focus,
+input:focus,
+.btn:active,
+input:active {
+  box-shadow: none !important;
+}
+
+.tabs-nav-block .tab-nav-btn {
+  width: 33%;
+  cursor: pointer;
+  padding: 8px 16px;
+  background-color: #eeeeee;
+}
+
+.tabs-nav-block .tab-nav-btn:hover {
+  opacity: 0.78;
+}
+
+.tabs-wrapper > * {
+  display: none;
+}
+
+.card-img-top {
+  height: 260px;
+  background-position: center center;
+  background-size: cover;
+}
